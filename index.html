@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- cntrl shift i - inspector. Зліва від elements буде доктіпе - це щоб звужувати розмір сторінки -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="God">
+        <section class="hero">
+            <div class="container_first">
+                <header class="header">
+                    <div class="header__menu" onclick="toggleMenu()">
+                        <img src="images/menu-icon.svg" alt="Menu icon" class="burger">
+                    </div>
+                    <nav id="nav-links" class="header__nav">
+                        <ul>
+                            <li class="header__nav-item"><a href=""><span
+                                        class="color_text"><strong>Home</strong></span></a></li>
+                            <li class="header__nav-item"><a href="">Destination</a></li>
+                            <li class="header__nav-item"><a href="">About</a></li>
+                            <li class="header__nav-item"><a href="">Partner</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header__logo"> <img src="logo.svg" alt="logo" /> </div>
+                    <button class="header__login">Login</button>
+                    <button class="header__register">Register</button>
+
+                </header>
+            </div>
+            <div class="container_second">
+                <div class="hero__inner">
+
+                    <div>
+                        <img src="man.svg" alt="Walking man" class="pict_man">
+                    </div>
+
+
+                    <h1 class="hero__title">
+                        Guides by Thousand Sunny
+                    </h1>
+                    <p class="hero__paragraph">
+                        Packed with tips and advice from our on-the-ground experts, our city guides app (iOS and
+                        Android) is
+                        the ultimate resource before and during a trip.
+                    </p>
+
+                    <div>
+                        <botton class="hero__botton">Download</botton>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="SecondSection">
+            <div class="container">
+                <div class="Edward">
+                    <img src="edward.svg" alt="Edward's photo" class="Edw_Photo">
+                </div>
+
+                <div class="stars">
+                    <img src="stars.svg" alt="stars">
+                </div>
+                <main class="main__inner">
+                    <h1 class="main__title">Testimonials</h1>
+                    <p class="main__paragraph">“Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac
+                        scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec”</p>
+                    <h3 class="main__name"><strong>Edward Newgate</strong></h3>
+                    <p class="main__work">Founder Circle</p>
+                </main>
+            </div>
+        </section>
+
+        <section class="ThirdSection">
+            <div class="container">
+                <div class="third___inner">
+                    <div class="fly_menu">
+                        <h1 class="third___title">Trending stories</h1>
+                        <p class="View_all">View all</p>
+                        <img class="bird" src="bird.svg" alt="bird" />
+                    </div>
+
+                    <div class="photos">
+                        <div class="photo1">
+                            <img src="photo1.svg" alt="photo1" class="Border_a_photo">
+                            <h4 class="last_titles">The many benefits of
+                                taking a healing holiday</h4>
+                            <p class="last_paragr">‘Helaing holidays’ are on the rise
+                                tohelp maximise your health and happines...</p>
+                            <a href="" class="orange">Read more</a>
+                        </div>
+
+                        <div class="photo2">
+                            <img src="photo2.svg" alt="photo2" class="Border_a_photo">
+                            <h4 class="first_error">The best Kyoto restaurant
+                                to try Japanese food</h4>
+                            <p class="last_paragr">From tofu to teahouses, here’s our guide to Kyoto’s best restaurants
+                                to visit...</p>
+                            <a href="" class="orange">Read more</a>
+                        </div>
+
+
+
+                        <div class="photo3">
+                            <img src="photo3.svg" alt="photo3" class="Border_a_photo">
+                            <h4 class="second_error">Skip Chichen Itza and head
+                                to this remote Yucatan</h4>
+                            <p class="last_paragr">It’s remote and challenging to get,
+                                but braving the jungle and exploring
+                                these ruins without the...</p>
+                            <a href="" class="orange">Read more</a>
+                        </div>
+
+
+
+                        <div class="photo4">
+                            <img src="photo4.svg" alt="photo4" class="Border_a_photo">
+                            <h4 class="last_titles">Surf’s up at these beginner
+                                spots around the world</h4>
+                            <p class="last_paragr">If learning to surf has in on your to-
+                                do list for a while, the good news
+                                is: it’s never too late...</p>
+                            <a href="" class="orange">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="Last">
+            <div class="container">
+                <footer class="footer">
+                    <div class="second_fly_menu">
+                        <img src="logo.svg" alt="logo" class="second_logo" />
+                        <p class="footer_paragraph">©2020 Thousand Sunny. All rights reserved</p>
+                    </div>
+                    <hr>
+                    <div class="social_media">
+                        <img src="social_bird.svg" alt="Social Media" class="social-bird" />
+                        <img src="facebook.svg" alt="Social Media" class="social-facebook" />
+                        <img src="instogram.svg" alt="Social Media" class="social-insta" />
+                        <img src="in.svg" alt="Social Media" class="social-in" />
+                        <img src="youtube.svg" alt="Social Media" class="social-youtube" />
+                    </div>
+                </footer>
+            </div>
+        </section>
+        <script src="main.js"></script>
+    </div>
+</body>
+
+</html>
